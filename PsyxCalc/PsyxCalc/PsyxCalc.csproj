@@ -45,6 +45,7 @@
     <Compile Include="Resources\Atomic\Hydrogen.cs" />
     <Compile Include="Resources\Calc\Addition.cs" />
     <Compile Include="Resources\Calc\Division.cs" />
+    <Compile Include="Resources\Calc\Functions.cs" />
     <Compile Include="Resources\Calc\Mod.cs" />
     <Compile Include="Resources\Calc\Multiplication.cs" />
     <Compile Include="Resources\Calc\Percent.cs" />
@@ -52,9 +53,12 @@
     <Compile Include="Resources\Constants\Chemistry.cs" />
     <Compile Include="Resources\Constants\Math.cs" />
     <Compile Include="Resources\Constants\Physics.cs" />
+    <Compile Include="Resources\Interfaces\IOptics.cs" />
     <Compile Include="Resources\Interfaces\ISubstance.cs" />
+    <Compile Include="Resources\Properties\Range.cs" />
     <Compile Include="Resources\Properties\Temperature.cs" />
     <Compile Include="Resources\Subatomic\Electron.cs" />
+    <Compile Include="Resources\Subatomic\Photon.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
