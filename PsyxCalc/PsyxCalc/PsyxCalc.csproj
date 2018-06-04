@@ -45,6 +45,7 @@
     <Compile Include="Resources\Atomic\Hydrogen.cs" />
     <Compile Include="Resources\Calc\Addition.cs" />
     <Compile Include="Resources\Calc\Division.cs" />
+    <Compile Include="Resources\Extra\ExtensionMethods.cs" />
     <Compile Include="Resources\Calc\Functions.cs" />
     <Compile Include="Resources\Calc\Mod.cs" />
     <Compile Include="Resources\Calc\Multiplication.cs" />
