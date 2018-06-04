@@ -31,6 +31,11 @@
             }
         }
 
+        /// <summary>
+        /// A one dimensional range 
+        /// </summary>
+        /// <param name="x">from</param>
+        /// <param name="y">to</param>
         public Range1D(double x, double y)
         {
             X = x;
@@ -52,6 +57,8 @@
         public static bool operator <(Range1D r1, float r2) => (r1.Y - r1.X) < r2;
         public static bool operator >(Range1D r1, long r2) => (r1.Y - r1.X) > r2;
         public static bool operator <(Range1D r1, long r2) => (r1.Y - r1.X) < r2;
+        public static bool operator >(Range1D r1, short r2) => (r1.Y - r1.X) > r2;
+        public static bool operator <(Range1D r1, short r2) => (r1.Y - r1.X) < r2;
         public static bool operator >=(Range1D r1, Range1D r2) => (r1.Y - r1.X) >= (r2.Y - r2.X);
         public static bool operator <=(Range1D r1, Range1D r2) => (r1.Y - r1.X) <= (r2.Y - r2.X);
         public static bool operator >=(Range1D r1, int r2) => (r1.Y - r1.X) >= r2;
@@ -62,6 +69,8 @@
         public static bool operator <=(Range1D r1, float r2) => (r1.Y - r1.X) <= r2;
         public static bool operator >=(Range1D r1, long r2) => (r1.Y - r1.X) >= r2;
         public static bool operator <=(Range1D r1, long r2) => (r1.Y - r1.X) <= r2;
+        public static bool operator >=(Range1D r1, short r2) => (r1.Y - r1.X) >= r2;
+        public static bool operator <=(Range1D r1, short r2) => (r1.Y - r1.X) <= r2;
         public static explicit operator double(Range1D r1) => (r1.Y - r1.X);
         public static explicit operator float(Range1D r1) => (float)(r1.Y - r1.X);
 
