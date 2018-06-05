@@ -43,14 +43,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Atomic\Atom.cs" />
     <Compile Include="Resources\Atomic\Hydrogen.cs" />
-    <Compile Include="Resources\Calc\Addition.cs" />
-    <Compile Include="Resources\Calc\Division.cs" />
     <Compile Include="Resources\Extra\ExtensionMethods.cs" />
-    <Compile Include="Resources\Calc\Functions.cs" />
-    <Compile Include="Resources\Calc\Mod.cs" />
-    <Compile Include="Resources\Calc\Multiplication.cs" />
+    <Compile Include="Resources\Calc\Round.cs" />
+    <Compile Include="Resources\Calc\Remainder.cs" />
     <Compile Include="Resources\Calc\Percent.cs" />
-    <Compile Include="Resources\Calc\Subtraction.cs" />
     <Compile Include="Resources\Constants\Chemistry.cs" />
     <Compile Include="Resources\Constants\Math.cs" />
     <Compile Include="Resources\Constants\Physics.cs" />
